@@ -55,6 +55,36 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="BorderExample.xaml.cs">
+      <DependentUpon>BorderExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CanvasExample.xaml.cs">
+      <DependentUpon>CanvasExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DockPanelExample.xaml.cs">
+      <DependentUpon>DockPanelExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StackPanelExample.xaml.cs">
+      <DependentUpon>StackPanelExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VirtualizingStackPanelExample.xaml.cs">
+      <DependentUpon>VirtualizingStackPanelExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WarpPanel.xaml.cs">
+      <DependentUpon>WarpPanel.xaml</DependentUpon>
+    </Compile>
+    <Page Include="BorderExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CanvasExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DockPanelExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,6 +97,18 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="StackPanelExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VirtualizingStackPanelExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WarpPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">

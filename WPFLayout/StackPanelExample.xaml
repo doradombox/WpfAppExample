@@ -1,0 +1,45 @@
+﻿<Window x:Class="WPFLayout.StackPanelExample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+        Title="StackPanelExample" Height="350" Width="600">
+    <ScrollViewer>
+        <StackPanel
+            Orientation="Vertical">
+            <Button
+                Content="WPF中文网1"
+                Margin="20"
+                HorizontalAlignment="Stretch" />
+            <Button
+                Content="WPF中文网2"
+                Margin="20"
+                HorizontalAlignment="Right" />
+            <Button
+                Content="WPF中文网3"
+                Margin="20"
+                HorizontalAlignment="Center" />
+            <Button
+                Content="WPF中文网4"
+                Margin="20"
+                HorizontalAlignment="Stretch" />
+            <Button
+                Content="WPF中文网5"
+                Margin="20" />
+            <Button
+                Content="WPF中文网6"
+                Margin="20" />
+            <Button
+                Content="WPF中文网7"
+                Margin="20" />
+            <Button
+                Content="WPF中文网8"
+                Margin="20" />
+            <Button
+                Content="WPF中文网9"
+                Margin="20" />
+        </StackPanel>
+    </ScrollViewer>
+
+</Window>
