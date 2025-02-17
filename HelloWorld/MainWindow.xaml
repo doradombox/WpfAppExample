@@ -1,0 +1,90 @@
+﻿<Window
+    x:Class="HelloWorld.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:HelloWorld"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Border
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            BorderBrush="Gray"
+            BorderThickness="1" />
+        <Border
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            BorderBrush="Gray"
+            BorderThickness="0,0,0,1" />
+        <Border
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.Column="0"
+            BorderBrush="Gray"
+            BorderThickness="0,0,1,0" />
+        <Button
+            Grid.Row="0"
+            Grid.Column="0"
+            Margin="20"
+            Panel.ZIndex="1"
+            Content="WPF中文网1" />
+        <Button
+            Grid.Row="0"
+            Grid.Column="1"
+            Margin="20"
+            Panel.ZIndex="0"
+            Content="WPF中文网2" />
+        <Button
+            Grid.Row="1"
+            Grid.Column="0"
+            Margin="20"
+            Panel.ZIndex="1"
+            Content="WPF中文网3" />
+        <Button
+            Grid.Row="1"
+            Grid.Column="1"
+            Margin="20"
+            Panel.ZIndex="0"
+            Content="WPF中文网4" />
+        <Button
+            Grid.Row="0"
+            Grid.Column="0"
+            Margin="20"
+            Panel.ZIndex="1"
+            Content="WPF中文网1" />
+        <Button
+            Grid.Row="0"
+            Grid.Column="1"
+            Margin="20"
+            Panel.ZIndex="1"
+            Content="WPF中文网2" />
+        <Button
+            Grid.Row="1"
+            Grid.Column="0"
+            Margin="20"
+            Panel.ZIndex="1"
+            Content="WPF中文网3" />
+        <Button
+            Grid.Row="1"
+            Grid.Column="1"
+            Margin="20"
+            Panel.ZIndex="0"
+            Content="WPF中文网4" />
+    </Grid>
+
+</Window>
